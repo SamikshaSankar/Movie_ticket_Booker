@@ -1,0 +1,55 @@
+{
+  "name": "7d84f15c-1c22-424c-917b-69bf29cf7e89",
+  "displayName": "Confirm_movie_ticket",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is to confirm that $session.params.Your_name will see\nFrom: $session.params.Cinema_Hall\nOn: $session.params.Movie_Date\nStarting time: $session.params.Movie_time\nLocation: $session.params.Cinema_Zip_Code\nIs this correct?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great!! Your ticket is booked" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "736a0495-c6ff-4d2b-8508-1fb6583697e3"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No", "Never" ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "Cinema_Hall",
+        "value": "null"
+      }, {
+        "parameter": "Movie_Date",
+        "value": "null"
+      }, {
+        "parameter": "Movie_time",
+        "value": "null"
+      }, {
+        "parameter": "Cinema_Zip_Code",
+        "value": "null"
+      }, {
+        "parameter": "Your_name",
+        "value": "null"
+      } ]
+    },
+    "targetPage": "Ticket information",
+    "name": "b59d6a2c-e76c-4b61-a4e6-2f592baa9b71"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "1fb800cc-ddf2-48f5-916b-0de5a16242eb",
+  "displayName": "main.movie_ticket",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}
