@@ -1,5 +1,19 @@
 {
   "trainingPhrases": [ {
+    "parts": [ {
+      "text": "hello",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "hi",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
     "id": "2d0ed772-0de9-4613-bf56-4cde5a555a9f",
     "parts": [ {
       "text": "just going to say hi",
@@ -72,14 +86,6 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "bbe43966-14c3-4347-afcf-e8b7f75eaf62",
-    "parts": [ {
-      "text": "hello",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
     "id": "f6e3d663-375e-438a-a945-a301224a940f",
     "parts": [ {
       "text": "lovely day isn't it",
@@ -99,14 +105,6 @@
     "id": "7e981fd0-2f35-408a-b08d-67fbdbcac17d",
     "parts": [ {
       "text": "hello again",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "id": "1850712b-f612-4cf1-bab6-938b2debcd09",
-    "parts": [ {
-      "text": "hi",
       "auto": true
     } ],
     "repeatCount": 1,

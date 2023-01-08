@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "This is to confirm that $session.params.Your_name will see\nFrom: $session.params.Cinema_Hall\nOn: $session.params.Movie_Date\nStarting time: $session.params.Movie_time\nLocation: $session.params.Cinema_Zip_Code\nIs this correct?" ]
+        "text": [ "This is to confirm that $session.params.Your_name will see From: $session.params.Cinema_Hall                                          \nOn: $session.params.Movie_Date                                       Starting time: $session.params.Movie_time                                               Location: $session.params.Cinema_Zip_Code                                              Is this correct?" ]
       },
       "languageCode": "en"
     } ]

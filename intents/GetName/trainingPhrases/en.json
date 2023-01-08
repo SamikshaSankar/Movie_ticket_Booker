@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "It's "
+    }, {
+      "text": "Sasidhara",
+      "parameterId": "name"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi, my name is "
+    }, {
+      "text": "Sasidhara Kashyap Ch",
+      "parameterId": "name"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Sasidhara",
+      "parameterId": "name"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

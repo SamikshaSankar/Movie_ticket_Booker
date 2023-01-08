@@ -3,14 +3,42 @@
   "displayName": "Ticket information",
   "form": {
     "parameters": [ {
-      "displayName": "Cinema_Hall",
+      "displayName": "Your_Name",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your name?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "Your_Movie_Name",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What movie do you want to watch at the theatres?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "Your_City",
       "required": true,
       "entityType": "@sys.geo-city",
       "fillBehavior": {
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Which city do you want to watch the movie in?" ]
+              "text": [ "Which City are you from?" ]
             },
             "languageCode": "en"
           } ]
@@ -38,7 +66,7 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Preferable time you want?" ]
+              "text": [ "What is your preferable time you want to watch the movie?" ]
             },
             "languageCode": "en"
           } ]
@@ -52,21 +80,21 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Enter your Zip-Code" ]
+              "text": [ "What is your zip code of your location?" ]
             },
             "languageCode": "en"
           } ]
         }
       }
     }, {
-      "displayName": "Your_name",
+      "displayName": "Your_Booking_Finished",
       "required": true,
       "entityType": "@sys.any",
       "fillBehavior": {
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Enter your name" ]
+              "text": [ "Thank you for booking your ticket, We will check your availability of your movie ticket if the show is confirmed at your theatre" ]
             },
             "languageCode": "en"
           } ]

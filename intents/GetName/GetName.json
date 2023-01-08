@@ -1,0 +1,10 @@
+{
+  "name": "0ac76ec6-7a0a-40ee-a9cf-1553a80d0246",
+  "displayName": "GetName",
+  "parameters": [ {
+    "id": "name",
+    "entityType": "@sys.any",
+    "redact": true
+  } ],
+  "priority": 500000
+}
